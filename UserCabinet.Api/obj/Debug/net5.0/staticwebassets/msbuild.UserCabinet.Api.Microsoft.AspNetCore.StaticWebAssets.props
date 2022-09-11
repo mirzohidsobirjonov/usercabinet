@@ -1,0 +1,84 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\1b09204ecdfc4d3f91490bf279c4d963-photo_2022-08-31_14-54-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserCabinet.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserCabinet.Api</BasePath>
+      <RelativePath>files\1b09204ecdfc4d3f91490bf279c4d963-photo_2022-08-31_14-54-11.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\1b09204ecdfc4d3f91490bf279c4d963-photo_2022-08-31_14-54-11.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\562c3b7ea5fa4e2e8087899ec77bc75b-photo_2022-08-31_14-54-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserCabinet.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserCabinet.Api</BasePath>
+      <RelativePath>files\562c3b7ea5fa4e2e8087899ec77bc75b-photo_2022-08-31_14-54-11.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\562c3b7ea5fa4e2e8087899ec77bc75b-photo_2022-08-31_14-54-11.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\895404e9514d428fbe9b54b1e2ad788c-photo_2022-08-31_14-54-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserCabinet.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserCabinet.Api</BasePath>
+      <RelativePath>files\895404e9514d428fbe9b54b1e2ad788c-photo_2022-08-31_14-54-11.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\895404e9514d428fbe9b54b1e2ad788c-photo_2022-08-31_14-54-11.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\b1416a7f4bea4ee88bf662de4f2d6903-photo_2022-08-31_14-54-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserCabinet.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserCabinet.Api</BasePath>
+      <RelativePath>files\b1416a7f4bea4ee88bf662de4f2d6903-photo_2022-08-31_14-54-11.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\b1416a7f4bea4ee88bf662de4f2d6903-photo_2022-08-31_14-54-11.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\b1fd6168abd94f62bf59a6df592e2783-photo_2022-08-31_14-54-11.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserCabinet.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserCabinet.Api</BasePath>
+      <RelativePath>files\b1fd6168abd94f62bf59a6df592e2783-photo_2022-08-31_14-54-11.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\b1fd6168abd94f62bf59a6df592e2783-photo_2022-08-31_14-54-11.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

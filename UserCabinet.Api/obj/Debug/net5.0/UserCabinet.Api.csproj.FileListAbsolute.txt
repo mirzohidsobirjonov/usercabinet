@@ -49,3 +49,8 @@ D:\.NET\UserCabinet\UserCabinet.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Http.F
 D:\.NET\UserCabinet\UserCabinet.Api\bin\Debug\net5.0\Npgsql.dll
 D:\.NET\UserCabinet\UserCabinet.Api\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\.NET\UserCabinet\UserCabinet.Api\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net5.0\staticwebassets\UserCabinet.Api.StaticWebAssets.Pack.cache
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net5.0\staticwebassets\msbuild.UserCabinet.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net5.0\staticwebassets\msbuild.build.UserCabinet.Api.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.UserCabinet.Api.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.UserCabinet.Api.props
