@@ -1,0 +1,17 @@
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Data.deps.json
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Data.runtimeconfig.json
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Data.dll
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Data.pdb
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Domain.dll
+D:\.NET\UserCabinet\UserCabinet.Data\bin\Debug\net6.0\UserCabinet.Domain.pdb
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.csproj.AssemblyReference.cache
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.AssemblyInfoInputs.cache
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.AssemblyInfo.cs
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.csproj.CoreCompileInputs.cache
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.csproj.CopyComplete
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.dll
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\refint\UserCabinet.Data.dll
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.pdb
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\UserCabinet.Data.genruntimeconfig.cache
+D:\.NET\UserCabinet\UserCabinet.Data\obj\Debug\net6.0\ref\UserCabinet.Data.dll

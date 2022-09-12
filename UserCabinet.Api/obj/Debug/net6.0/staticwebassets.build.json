@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "8Dmw0X72hFt0mV/BtPBzD7N29i+ImOvwXBPn5nomYqk=",
+  "Source": "UserCabinet.Api",
+  "BasePath": "_content/UserCabinet.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UserCabinet.Api\\wwwroot",
+      "Source": "UserCabinet.Api",
+      "ContentRoot": "D:\\.NET\\UserCabinet\\UserCabinet.Api\\wwwroot\\",
+      "BasePath": "_content/UserCabinet.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+D:\.NET\UserCabinet\UserCabinet.Domain\bin\Debug\net6.0\UserCabinet.Domain.deps.json
+D:\.NET\UserCabinet\UserCabinet.Domain\bin\Debug\net6.0\UserCabinet.Domain.dll
+D:\.NET\UserCabinet\UserCabinet.Domain\bin\Debug\net6.0\UserCabinet.Domain.pdb
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.csproj.AssemblyReference.cache
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.AssemblyInfoInputs.cache
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.AssemblyInfo.cs
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.csproj.CoreCompileInputs.cache
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.dll
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\refint\UserCabinet.Domain.dll
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\UserCabinet.Domain.pdb
+D:\.NET\UserCabinet\UserCabinet.Domain\obj\Debug\net6.0\ref\UserCabinet.Domain.dll

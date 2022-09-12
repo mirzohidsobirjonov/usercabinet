@@ -1,0 +1,291 @@
+[2022-09-12 14:34:44.414 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-12 14:34:44.566 +05:00  INF]  Hosting environment: Development
+[2022-09-12 14:34:44.568 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-12 14:34:44.537 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-12 14:34:46.057 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 1531.5073ms
+[2022-09-12 14:34:46.135 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-12 14:34:46.150 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.3885ms
+[2022-09-12 14:34:46.226 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-12 14:34:46.407 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 181.0041ms
+[2022-09-12 14:34:46.700 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-12 14:34:47.241 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 541.7105ms
+[2022-09-12 14:34:53.963 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
+[2022-09-12 14:34:54.027 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 14:34:54.091 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 14:34:56.928 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 14:34:58.868 +05:00  ERR]  An error occurred using the connection to database 'UserCabinet' on server ''.
+[2022-09-12 14:34:59.328 +05:00  ERR]  An exception occurred while iterating over the results of a query for context type 'UserCabinet.Data.DbContexts.UserCabinetDbContext'.
+Npgsql.PostgresException (0x80004005): 28P01: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: �����
+    SqlState: 28P01
+    MessageText: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+    File: auth.c
+    Line: 338
+    Routine: auth_failed
+Npgsql.PostgresException (0x80004005): 28P01: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: �����
+    SqlState: 28P01
+    MessageText: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+    File: auth.c
+    Line: 338
+    Routine: auth_failed
+[2022-09-12 14:34:59.811 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 5696.8625ms
+[2022-09-12 14:34:59.822 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 14:35:00.191 +05:00  ERR]  Npgsql.PostgresException (0x80004005): 28P01: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|191_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.<Get>g__RentAsync|28_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|45_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at UserCabinet.Service.Services.UserService.GetAllAsync(PaginationParams params, Expression`1 expression) in D:\.NET\UserCabinet\UserCabinet.Service\Services\UserService.cs:line 66
+   at UserCabinet.Api.Controllers.UserController.GetAllAsync(PaginationParams params) in D:\.NET\UserCabinet\UserCabinet.Api\Controllers\UsersController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at UserCabinet.Api.Middlewares.UserExceptionMiddleware.InvokeAsync(HttpContext context) in D:\.NET\UserCabinet\UserCabinet.Api\Middlewares\UserExceptionMiddleware.cs:line 23
+  Exception data:
+    Severity: �����
+    SqlState: 28P01
+    MessageText: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+    File: auth.c
+    Line: 338
+    Routine: auth_failed
+[2022-09-12 14:35:00.226 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 500 - application/json;+charset=utf-8 6262.7968ms
+[2022-09-12 15:37:18.964 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-12 15:37:19.109 +05:00  INF]  Hosting environment: Development
+[2022-09-12 15:37:19.113 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-12 15:37:19.041 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-12 15:37:20.255 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 1222.2906ms
+[2022-09-12 15:37:20.316 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-12 15:37:20.330 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.2456ms
+[2022-09-12 15:37:20.388 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-12 15:37:20.582 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 193.9637ms
+[2022-09-12 15:37:20.881 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-12 15:37:21.385 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 503.9018ms
+[2022-09-12 15:37:29.813 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
+[2022-09-12 15:37:29.885 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 15:37:29.974 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 15:37:33.471 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 15:37:36.616 +05:00  INF]  Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username", a."Id", a."CreatedAt", a."Name", a."Path", a."UpdatedAt"
+FROM "Users" AS u
+LEFT JOIN "Attechments" AS a ON u."AttechmentId" = a."Id"
+[2022-09-12 15:37:36.783 +05:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserCabinet.Domain.Entities.Users.User, UserCabinet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-09-12 15:37:36.825 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 6832.7533ms
+[2022-09-12 15:37:36.830 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 15:37:36.859 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 200 - application/json;+charset=utf-8 7045.6769ms
+[2022-09-12 15:38:12.915 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryi3mP8k9DjV8gfFRT 205431
+[2022-09-12 15:38:12.917 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:38:12.926 +05:00  INF]  Route matched with {action = "Add", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserCabinet.Domain.Entities.Users.User]] AddAsync(UserCabinet.Service.DTOs.Users.UserForCreationDTO) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 15:38:13.002 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 15:38:13.444 +05:00  INF]  Executed DbCommand (36ms) [Parameters=[@__user_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Username" = @__user_Username_0
+LIMIT 1
+[2022-09-12 15:38:13.828 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api) in 902.6465ms
+[2022-09-12 15:38:13.830 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:38:14.204 +05:00  ERR]  System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at UserCabinet.Service.Helpers.EnvironmentHelper.get_AttachmentPath() in D:\.NET\UserCabinet\UserCabinet.Service\Helpers\EnvironmentHelper.cs:line 8
+   at UserCabinet.Service.Services.AttechmentService.UploadAsync(Stream stream, String fileName) in D:\.NET\UserCabinet\UserCabinet.Service\Services\AttechmentService.cs:line 25
+   at UserCabinet.Service.Services.UserService.AddAsync(UserForCreationDTO user) in D:\.NET\UserCabinet\UserCabinet.Service\Services\UserService.cs:line 36
+   at UserCabinet.Api.Controllers.UserController.AddAsync(UserForCreationDTO dto) in D:\.NET\UserCabinet\UserCabinet.Api\Controllers\UsersController.cs:line 22
+   at lambda_method19(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at UserCabinet.Api.Middlewares.UserExceptionMiddleware.InvokeAsync(HttpContext context) in D:\.NET\UserCabinet\UserCabinet.Api\Middlewares\UserExceptionMiddleware.cs:line 23
+[2022-09-12 15:38:14.220 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryi3mP8k9DjV8gfFRT 205431 - 500 - application/json;+charset=utf-8 1304.8196ms
+[2022-09-12 15:40:03.418 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-12 15:40:03.473 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-12 15:40:03.493 +05:00  INF]  Hosting environment: Development
+[2022-09-12 15:40:03.494 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-12 15:40:04.166 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 661.8342ms
+[2022-09-12 15:40:04.166 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-12 15:40:04.194 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 20.4298ms
+[2022-09-12 15:40:04.205 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-12 15:40:04.306 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.7702ms
+[2022-09-12 15:40:04.538 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-12 15:40:04.970 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 431.8928ms
+[2022-09-12 15:40:39.199 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryU5kmOcr1NpHQuQAQ 205431
+[2022-09-12 15:40:39.260 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:40:39.329 +05:00  INF]  Route matched with {action = "Add", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserCabinet.Domain.Entities.Users.User]] AddAsync(UserCabinet.Service.DTOs.Users.UserForCreationDTO) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 15:40:43.015 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 15:40:45.993 +05:00  INF]  Executed DbCommand (246ms) [Parameters=[@__user_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Username" = @__user_Username_0
+LIMIT 1
+[2022-09-12 15:40:46.583 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api) in 7235.3252ms
+[2022-09-12 15:40:46.586 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:40:46.889 +05:00  ERR]  System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at UserCabinet.Service.Helpers.EnvironmentHelper.get_AttachmentPath() in D:\.NET\UserCabinet\UserCabinet.Service\Helpers\EnvironmentHelper.cs:line 8
+   at UserCabinet.Service.Services.AttechmentService.UploadAsync(Stream stream, String fileName) in D:\.NET\UserCabinet\UserCabinet.Service\Services\AttechmentService.cs:line 25
+   at UserCabinet.Service.Services.UserService.AddAsync(UserForCreationDTO user) in D:\.NET\UserCabinet\UserCabinet.Service\Services\UserService.cs:line 36
+   at UserCabinet.Api.Controllers.UserController.AddAsync(UserForCreationDTO dto) in D:\.NET\UserCabinet\UserCabinet.Api\Controllers\UsersController.cs:line 22
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at UserCabinet.Api.Middlewares.UserExceptionMiddleware.InvokeAsync(HttpContext context) in D:\.NET\UserCabinet\UserCabinet.Api\Middlewares\UserExceptionMiddleware.cs:line 23
+[2022-09-12 15:40:46.948 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryU5kmOcr1NpHQuQAQ 205431 - 500 - application/json;+charset=utf-8 7750.0290ms
+[2022-09-12 15:43:20.571 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-12 15:43:20.717 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-12 15:43:20.722 +05:00  INF]  Hosting environment: Development
+[2022-09-12 15:43:20.723 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-12 15:43:21.592 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 871.3576ms
+[2022-09-12 15:43:21.594 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-12 15:43:21.620 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 26.0056ms
+[2022-09-12 15:43:21.709 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-12 15:43:21.788 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.6054ms
+[2022-09-12 15:43:22.023 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-12 15:43:22.464 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 441.1306ms
+[2022-09-12 15:43:51.873 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundary3UOulDvXV1g660AR 205431
+[2022-09-12 15:43:51.931 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:43:52.002 +05:00  INF]  Route matched with {action = "Add", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserCabinet.Domain.Entities.Users.User]] AddAsync(UserCabinet.Service.DTOs.Users.UserForCreationDTO) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 15:43:55.709 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 15:43:58.442 +05:00  INF]  Executed DbCommand (178ms) [Parameters=[@__user_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Username" = @__user_Username_0
+LIMIT 1
+[2022-09-12 15:43:58.941 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api) in 6928.3847ms
+[2022-09-12 15:43:58.943 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 15:43:58.958 +05:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at UserCabinet.Service.Helpers.EnvironmentHelper.get_AttachmentPath() in D:\.NET\UserCabinet\UserCabinet.Service\Helpers\EnvironmentHelper.cs:line 8
+   at UserCabinet.Service.Services.AttechmentService.UploadAsync(Stream stream, String fileName) in D:\.NET\UserCabinet\UserCabinet.Service\Services\AttechmentService.cs:line 25
+   at UserCabinet.Service.Services.UserService.AddAsync(UserForCreationDTO user) in D:\.NET\UserCabinet\UserCabinet.Service\Services\UserService.cs:line 36
+   at UserCabinet.Api.Controllers.UserController.AddAsync(UserForCreationDTO dto) in D:\.NET\UserCabinet\UserCabinet.Api\Controllers\UsersController.cs:line 22
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-09-12 15:43:59.257 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundary3UOulDvXV1g660AR 205431 - 500 - text/plain;+charset=utf-8 7385.4331ms
+[2022-09-12 15:46:48.765 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-12 15:46:48.820 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-12 15:46:48.872 +05:00  INF]  Hosting environment: Development
+[2022-09-12 15:46:48.874 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-12 15:46:49.681 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-12 15:46:49.684 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 866.1644ms
+[2022-09-12 15:46:49.706 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 23.9292ms
+[2022-09-12 15:46:49.779 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-12 15:46:49.928 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.5629ms
+[2022-09-12 15:46:50.166 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-12 15:46:50.629 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 462.9270ms
+[2022-09-12 16:18:59.992 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryr8zYMzBgeTVteVQk 205431
+[2022-09-12 16:19:00.056 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 16:19:00.109 +05:00  INF]  Route matched with {action = "Add", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserCabinet.Domain.Entities.Users.User]] AddAsync(UserCabinet.Service.DTOs.Users.UserForCreationDTO) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 16:19:03.343 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 16:19:05.902 +05:00  INF]  Executed DbCommand (184ms) [Parameters=[@__user_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Username" = @__user_Username_0
+LIMIT 1
+[2022-09-12 16:19:06.540 +05:00  INF]  Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Attechments" ("CreatedAt", "Name", "Path", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[2022-09-12 16:19:06.914 +05:00  INF]  Executed DbCommand (60ms) [Parameters=[@p0='?', @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = DateTime), @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Adress", "AttechmentId", "CreatedAt", "Email", "Firstname", "Lastname", "Password", "UpdatedAt", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+[2022-09-12 16:19:06.958 +05:00  INF]  Executing OkObjectResult, writing value of type 'UserCabinet.Domain.Entities.Users.User'.
+[2022-09-12 16:19:07.003 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api) in 6883.1628ms
+[2022-09-12 16:19:07.006 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
+[2022-09-12 16:19:07.040 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundaryr8zYMzBgeTVteVQk 205431 - 200 - application/json;+charset=utf-8 7053.8882ms
+[2022-09-12 16:19:25.397 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
+[2022-09-12 16:19:25.398 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 16:19:25.412 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-12 16:19:25.488 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-12 16:19:25.677 +05:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username", a."Id", a."CreatedAt", a."Name", a."Path", a."UpdatedAt"
+FROM "Users" AS u
+LEFT JOIN "Attechments" AS a ON u."AttechmentId" = a."Id"
+[2022-09-12 16:19:25.701 +05:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserCabinet.Domain.Entities.Users.User, UserCabinet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-09-12 16:19:25.702 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 289.1551ms
+[2022-09-12 16:19:25.702 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-12 16:19:25.702 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 200 - application/json;+charset=utf-8 305.0171ms

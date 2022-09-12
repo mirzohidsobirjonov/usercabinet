@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 using UserCabinet.Service.Exceptions.Users;
@@ -8,8 +9,10 @@ namespace UserCabinet.Api.Middlewares
     public class UserExceptionMiddleware
     {
         private RequestDelegate next;
-        public UserExceptionMiddleware(RequestDelegate next)
+        private readonly ILogger<UserExceptionMiddleware> logger;
+        public UserExceptionMiddleware(RequestDelegate next, ILogger<UserExceptionMiddleware> logger)
         {
+            this.logger = logger;
             this.next = next;
         }
 
@@ -25,6 +28,7 @@ namespace UserCabinet.Api.Middlewares
             }
             catch (Exception ex)
             {
+                logger.LogError(ex.ToString());
                 await HandleExceptionAsync(context, 500, ex.Message);
             }
         }
