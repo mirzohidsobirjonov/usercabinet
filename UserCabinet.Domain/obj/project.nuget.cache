@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vpmr3gYSsCgfPB0xc9/5xT+/7+kDf2N+i0UM5o9Zsgirmqia08qaE5aQLmCA3l+fIZB4bm82EdJY4KUklfFGrQ==",
+  "dgSpecHash": "sXX8WiMylmwc1fmOBgC2nh132Hj+HeAu/fMX+oWlaGhOaab4RKvYpsf8pHh/WJEfqrxEYQANQEEn3Gb/3RABVg==",
   "success": true,
   "projectFilePath": "D:\\.NET\\UserCabinet\\UserCabinet.Domain\\UserCabinet.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

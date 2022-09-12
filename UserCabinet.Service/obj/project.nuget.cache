@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dy38TkshwEuvK/jDimBqTVSfhpmgqUab5KDZ5TbpJs8a2bBV/CCCKZRDgwWwrkOiybYtfXqIHEaSXlMCmLWezw==",
+  "dgSpecHash": "5Pf5g9TH+30CJeCDrz8jdaJOT7PGFgdl8i7fbehfQ0XHQ/cOnX/CicuGeGmo4EY9Rx0xcqJjTED1hkg3nbdabQ==",
   "success": true,
   "projectFilePath": "D:\\.NET\\UserCabinet\\UserCabinet.Service\\UserCabinet.Service.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,10 @@
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Toshiba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }

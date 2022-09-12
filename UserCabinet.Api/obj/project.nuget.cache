@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CwbA5zetc3eg7aBgLXgC+Dz2Fi9RltqdYba5I2CfvjCZ3MvUogOUBKvzemjIbOyiR3iJquKzu+I/MJDcWu8Caw==",
+  "dgSpecHash": "y52ewkVLG8jbbX5mYVIbwj0F11C6JIQEwkdaHWwY1O6BNaH5qKrR7ItEgmH/3QW1+qUqqczxztBAxzItmtdL6Q==",
   "success": true,
   "projectFilePath": "D:\\.NET\\UserCabinet\\UserCabinet.Api\\UserCabinet.Api.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,11 @@
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+    "C:\\Users\\Toshiba\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.7\\microsoft.netcore.app.host.win-x64.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }

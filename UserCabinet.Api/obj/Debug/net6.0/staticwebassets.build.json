@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Dmw0X72hFt0mV/BtPBzD7N29i+ImOvwXBPn5nomYqk=",
+  "Hash": "clOEHpcNG/e0v7XC29HWE9tFT4adhVFcccLY9MsOQZo=",
   "Source": "UserCabinet.Api",
   "BasePath": "_content/UserCabinet.Api",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\.NET\\UserCabinet\\UserCabinet.Api\\wwwroot\\files\\bcf0120a03e74caa98e81350d5987644-photo_2022-08-31_14-54-11.jpg",
+      "SourceId": "UserCabinet.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\UserCabinet\\UserCabinet.Api\\wwwroot\\",
+      "BasePath": "_content/UserCabinet.Api",
+      "RelativePath": "files/bcf0120a03e74caa98e81350d5987644-photo_2022-08-31_14-54-11.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\bcf0120a03e74caa98e81350d5987644-photo_2022-08-31_14-54-11.jpg"
+    }
+  ]
 }

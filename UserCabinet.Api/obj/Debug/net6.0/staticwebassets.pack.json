@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET\\UserCabinet\\UserCabinet.Api\\wwwroot\\files\\bcf0120a03e74caa98e81350d5987644-photo_2022-08-31_14-54-11.jpg",
+      "PackagePath": "staticwebassets\\files\\bcf0120a03e74caa98e81350d5987644-photo_2022-08-31_14-54-11.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UserCabinet.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UserCabinet.Api.props",
+      "PackagePath": "build\\UserCabinet.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UserCabinet.Api.props",
+      "PackagePath": "buildMultiTargeting\\UserCabinet.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UserCabinet.Api.props",
+      "PackagePath": "buildTransitive\\UserCabinet.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

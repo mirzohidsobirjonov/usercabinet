@@ -52,3 +52,8 @@ D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\refint\UserCabinet.Api.dll
 D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\UserCabinet.Api.pdb
 D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\UserCabinet.Api.genruntimeconfig.cache
 D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\ref\UserCabinet.Api.dll
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\staticwebassets\msbuild.UserCabinet.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.UserCabinet.Api.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UserCabinet.Api.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UserCabinet.Api.props
+D:\.NET\UserCabinet\UserCabinet.Api\obj\Debug\net6.0\staticwebassets.pack.json
