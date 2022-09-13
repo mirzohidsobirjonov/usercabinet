@@ -33,6 +33,10 @@ var logger = new LoggerConfiguration()
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
 
+
+builder.Logging.AddLog4Net("log4net.config");
+builder.Logging.SetMinimumLevel(LogLevel.Error);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -44,7 +48,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 
 EnvironmentHelper.WebRootPath = app.Services.GetService<IWebHostEnvironment>()?.WebRootPath;
 
-//app.UseMiddleware<UserExceptionMiddleware>();
+app.UseMiddleware<UserExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 

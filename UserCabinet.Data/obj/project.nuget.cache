@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ifxZgvsQh3rGJMkWcsa0h/FKY8i75+VoOkOn7UVQDRdx6hbYLFrg4/XAlQcugfwyQvTo4hyTkjgYX45N+r0MiQ==",
+  "dgSpecHash": "i/+Qq8XFL6S3b/udR/RVOKkE8uVK+bvYNBWgtYBBZrZK30XucxvmAwzTFfLSRILMVZTop6Jbl5Ep5KPIFCHQRQ==",
   "success": true,
   "projectFilePath": "D:\\.NET\\UserCabinet\\UserCabinet.Data\\UserCabinet.Data.csproj",
   "expectedPackageFiles": [
@@ -24,10 +24,7 @@
     "C:\\Users\\Toshiba\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.5\\npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
-    "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+    "C:\\Users\\Toshiba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
