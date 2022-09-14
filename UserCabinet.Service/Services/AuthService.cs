@@ -41,7 +41,7 @@ namespace UserCabinet.Service.Services
                 {
                 new Claim("Id", user.Id.ToString())
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(10),
+                Expires = DateTime.UtcNow.AddMinutes(int.Parse(configuration["JWT:ExpTime"])),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
