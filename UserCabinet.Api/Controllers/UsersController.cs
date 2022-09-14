@@ -7,9 +7,7 @@ using UserCabinet.Service.Interfaces;
 
 namespace UserCabinet.Api.Controllers
 {
-    [ApiController]
-    [Route("[Controller]")]
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly IUserService _userService;
         public UserController(IUserService productService)

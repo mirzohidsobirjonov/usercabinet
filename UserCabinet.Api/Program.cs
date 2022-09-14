@@ -24,6 +24,7 @@ builder.Services.AddDbContext<UserCabinetDbContext>(options =>
         options.UseNpgsql(builder.Configuration.GetConnectionString("UserCabinetDb")));
 
 builder.Services.AddCustomServices();
+builder.Services.AddJwtService(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(MapperProfile));
 
 var logger = new LoggerConfiguration()
@@ -55,6 +56,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
