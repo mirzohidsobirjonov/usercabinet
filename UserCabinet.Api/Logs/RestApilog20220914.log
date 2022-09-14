@@ -1,58 +1,21 @@
-[2022-09-14 15:49:26.338 +05:00  INF]  User profile is available. Using 'C:\Users\Toshiba\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-[2022-09-14 15:49:26.988 +05:00  INF]  Application started. Press Ctrl+C to shut down.
-[2022-09-14 15:49:27.362 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger - -
-[2022-09-14 15:49:27.578 +05:00  INF]  Hosting environment: Development
-[2022-09-14 15:49:27.580 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
-[2022-09-14 15:49:27.886 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger - - - 301 - - 509.5199ms
-[2022-09-14 15:49:27.907 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
-[2022-09-14 15:49:28.775 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 867.6461ms
-[2022-09-14 15:49:28.780 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/swagger-ui.css - -
-[2022-09-14 15:49:28.780 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/swagger-ui-bundle.js - -
-[2022-09-14 15:49:28.783 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/swagger-ui-standalone-preset.js - -
-[2022-09-14 15:49:28.788 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
-[2022-09-14 15:49:28.816 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 26.9433ms
-[2022-09-14 15:49:28.831 +05:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
-[2022-09-14 15:49:28.831 +05:00  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
-[2022-09-14 15:49:28.837 +05:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
-[2022-09-14 15:49:28.846 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/swagger-ui.css - - - 200 143632 text/css 66.5872ms
-[2022-09-14 15:49:28.879 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 96.2393ms
-[2022-09-14 15:49:28.931 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
-[2022-09-14 15:49:28.933 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 151.6495ms
-[2022-09-14 15:49:29.184 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 254.8128ms
-[2022-09-14 15:49:29.433 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
-[2022-09-14 15:49:29.856 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 423.1595ms
-[2022-09-14 15:49:47.767 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
-[2022-09-14 15:52:08.123 +05:00  INF]  User profile is available. Using 'C:\Users\Toshiba\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-[2022-09-14 15:52:08.389 +05:00  INF]  Application started. Press Ctrl+C to shut down.
-[2022-09-14 15:52:08.438 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
-[2022-09-14 15:52:08.507 +05:00  INF]  Hosting environment: Development
-[2022-09-14 15:52:08.508 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
-[2022-09-14 15:52:09.092 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
-[2022-09-14 15:52:09.107 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 673.5298ms
-[2022-09-14 15:52:09.124 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 31.7250ms
-[2022-09-14 15:52:09.175 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
-[2022-09-14 15:52:09.326 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.2892ms
-[2022-09-14 15:52:09.766 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
-[2022-09-14 15:52:10.175 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 409.4286ms
-[2022-09-14 15:52:20.508 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
-[2022-09-14 15:53:11.609 +05:00  INF]  User profile is available. Using 'C:\Users\Toshiba\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-[2022-09-14 15:53:11.919 +05:00  INF]  Application started. Press Ctrl+C to shut down.
-[2022-09-14 15:53:11.998 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
-[2022-09-14 15:53:12.060 +05:00  INF]  Hosting environment: Development
-[2022-09-14 15:53:12.061 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
-[2022-09-14 15:53:12.718 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
-[2022-09-14 15:53:12.735 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 752.0662ms
-[2022-09-14 15:53:12.736 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 17.3085ms
-[2022-09-14 15:53:12.786 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
-[2022-09-14 15:53:12.867 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 81.6420ms
-[2022-09-14 15:53:13.144 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
-[2022-09-14 15:53:13.538 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 394.9851ms
-[2022-09-14 15:53:20.249 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
-[2022-09-14 15:53:20.773 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
-[2022-09-14 15:53:20.845 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
-[2022-09-14 15:53:24.418 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
-[2022-09-14 15:53:26.877 +05:00  ERR]  An error occurred using the connection to database 'UserCabinet' on server ''.
-[2022-09-14 15:53:26.956 +05:00  ERR]  An exception occurred while iterating over the results of a query for context type 'UserCabinet.Data.DbContexts.UserCabinetDbContext'.
+[2022-09-14 16:14:51.001 +05:00  INF]  User profile is available. Using 'C:\Users\Toshiba\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-09-14 16:14:51.368 +05:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-09-14 16:14:51.447 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
+[2022-09-14 16:14:51.479 +05:00  INF]  Hosting environment: Development
+[2022-09-14 16:14:51.480 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
+[2022-09-14 16:14:52.582 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 1167.8635ms
+[2022-09-14 16:14:52.693 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
+[2022-09-14 16:14:52.745 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
+[2022-09-14 16:14:52.779 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 85.4953ms
+[2022-09-14 16:14:52.949 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 204.0061ms
+[2022-09-14 16:14:53.236 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
+[2022-09-14 16:14:53.657 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 421.2547ms
+[2022-09-14 16:14:59.106 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
+[2022-09-14 16:14:59.307 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-14 16:14:59.363 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
+[2022-09-14 16:15:01.656 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
+[2022-09-14 16:15:03.475 +05:00  ERR]  An error occurred using the connection to database 'UserCabinet' on server ''.
+[2022-09-14 16:15:03.566 +05:00  ERR]  An exception occurred while iterating over the results of a query for context type 'UserCabinet.Data.DbContexts.UserCabinetDbContext'.
 Npgsql.PostgresException (0x80004005): 28P01: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "postgres" ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
    at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
@@ -99,9 +62,9 @@ Npgsql.PostgresException (0x80004005): 28P01: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï
     File: auth.c
     Line: 338
     Routine: auth_failed
-[2022-09-14 15:53:27.441 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 6585.9484ms
-[2022-09-14 15:53:27.446 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
-[2022-09-14 15:53:27.793 +05:00  ERR]  Npgsql.PostgresException (0x80004005): 28P01: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "postgres" ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+[2022-09-14 16:15:04.010 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 4630.9606ms
+[2022-09-14 16:15:04.019 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
+[2022-09-14 16:15:04.388 +05:00  ERR]  Npgsql.PostgresException (0x80004005): 28P01: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "postgres" ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
    at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
    at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
    at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
@@ -142,74 +105,4 @@ Npgsql.PostgresException (0x80004005): 28P01: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï
     File: auth.c
     Line: 338
     Routine: auth_failed
-[2022-09-14 15:53:27.848 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 500 - application/json;+charset=utf-8 7598.3379ms
-[2022-09-14 15:53:49.139 +05:00  INF]  User profile is available. Using 'C:\Users\Toshiba\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-[2022-09-14 15:53:49.415 +05:00  INF]  Application started. Press Ctrl+C to shut down.
-[2022-09-14 15:53:49.474 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/index.html - -
-[2022-09-14 15:53:49.501 +05:00  INF]  Hosting environment: Development
-[2022-09-14 15:53:49.502 +05:00  INF]  Content root path: D:\.NET\UserCabinet\UserCabinet.Api\
-[2022-09-14 15:53:50.063 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - -
-[2022-09-14 15:53:50.091 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 21.2602ms
-[2022-09-14 15:53:50.091 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/index.html - - - 200 - text/html;charset=utf-8 636.7805ms
-[2022-09-14 15:53:50.135 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/_vs/browserLink - -
-[2022-09-14 15:53:50.215 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.2846ms
-[2022-09-14 15:53:50.487 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - -
-[2022-09-14 15:53:50.874 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 387.2540ms
-[2022-09-14 15:53:56.698 +05:00  INF]  Request starting HTTP/2 GET https://localhost:44354/User - -
-[2022-09-14 15:53:56.908 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
-[2022-09-14 15:53:56.964 +05:00  INF]  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(UserCabinet.Domain.Configuration.PaginationParams) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
-[2022-09-14 15:53:59.188 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
-[2022-09-14 15:54:01.543 +05:00  INF]  Executed DbCommand (186ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
-SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username", a."Id", a."CreatedAt", a."Name", a."Path", a."UpdatedAt"
-FROM "Users" AS u
-LEFT JOIN "Attechments" AS a ON u."AttechmentId" = a."Id"
-[2022-09-14 15:54:01.666 +05:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserCabinet.Domain.Entities.Users.User, UserCabinet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
-[2022-09-14 15:54:01.713 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api) in 4729.7049ms
-[2022-09-14 15:54:01.718 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.GetAllAsync (UserCabinet.Api)'
-[2022-09-14 15:54:01.753 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 200 - application/json;+charset=utf-8 5054.8627ms
-[2022-09-14 15:54:48.109 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundarymYVJISu1JhvN1F3x 205431
-[2022-09-14 15:54:48.126 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
-[2022-09-14 15:54:48.139 +05:00  INF]  Route matched with {action = "Add", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserCabinet.Domain.Entities.Users.User]] AddAsync(UserCabinet.Service.DTOs.Users.UserForCreationDTO) on controller UserCabinet.Api.Controllers.UserController (UserCabinet.Api).
-[2022-09-14 15:54:48.225 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
-[2022-09-14 15:54:48.651 +05:00  INF]  Executed DbCommand (35ms) [Parameters=[@__user_Username_0='?'], CommandType='"Text"', CommandTimeout='30']
-SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
-FROM "Users" AS u
-WHERE u."Username" = @__user_Username_0
-LIMIT 1
-[2022-09-14 15:54:49.393 +05:00  INF]  Executed DbCommand (70ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
-INSERT INTO "Attechments" ("CreatedAt", "Name", "Path", "UpdatedAt")
-VALUES (@p0, @p1, @p2, @p3)
-RETURNING "Id";
-[2022-09-14 15:54:49.767 +05:00  INF]  Executed DbCommand (20ms) [Parameters=[@p0='?', @p1='?' (DbType = Int64), @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = DateTime), @p8='?'], CommandType='"Text"', CommandTimeout='30']
-INSERT INTO "Users" ("Adress", "AttechmentId", "CreatedAt", "Email", "Firstname", "Lastname", "Password", "UpdatedAt", "Username")
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
-RETURNING "Id";
-[2022-09-14 15:54:49.779 +05:00  INF]  Executing OkObjectResult, writing value of type 'UserCabinet.Domain.Entities.Users.User'.
-[2022-09-14 15:54:49.793 +05:00  INF]  Executed action UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api) in 1653.8016ms
-[2022-09-14 15:54:49.793 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.UserController.AddAsync (UserCabinet.Api)'
-[2022-09-14 15:54:49.797 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/User multipart/form-data;+boundary=----WebKitFormBoundarymYVJISu1JhvN1F3x 205431 - 200 - application/json;+charset=utf-8 1688.0060ms
-[2022-09-14 15:55:15.448 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/Auth/Login application/json 58
-[2022-09-14 15:55:15.452 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api)'
-[2022-09-14 15:55:15.457 +05:00  INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserCabinet.Service.DTOs.Users.UserForLoginDTO) on controller UserCabinet.Api.Controllers.AuthController (UserCabinet.Api).
-[2022-09-14 15:55:15.482 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
-[2022-09-14 15:55:15.529 +05:00  INF]  Executed DbCommand (2ms) [Parameters=[@__username_0='?', @__Encode_1='?'], CommandType='"Text"', CommandTimeout='30']
-SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
-FROM "Users" AS u
-WHERE (u."Username" = @__username_0) AND (u."Password" = @__Encode_1)
-LIMIT 1
-[2022-09-14 15:55:16.351 +05:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
-[2022-09-14 15:55:16.356 +05:00  INF]  Executed action UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api) in 898.3883ms
-[2022-09-14 15:55:16.356 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api)'
-[2022-09-14 15:55:16.356 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/Auth/Login application/json 58 - 200 - application/json;+charset=utf-8 908.4456ms
-[2022-09-14 15:55:25.487 +05:00  INF]  Request starting HTTP/2 POST https://localhost:44354/Auth/Login application/json 57
-[2022-09-14 15:55:25.489 +05:00  INF]  Executing endpoint 'UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api)'
-[2022-09-14 15:55:25.489 +05:00  INF]  Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserCabinet.Service.DTOs.Users.UserForLoginDTO) on controller UserCabinet.Api.Controllers.AuthController (UserCabinet.Api).
-[2022-09-14 15:55:25.490 +05:00  INF]  Entity Framework Core 6.0.5 initialized 'UserCabinetDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.5+9d79af6e2586d5d28da253ac075706a5575a1743' with options: None
-[2022-09-14 15:55:25.505 +05:00  INF]  Executed DbCommand (7ms) [Parameters=[@__username_0='?', @__Encode_1='?'], CommandType='"Text"', CommandTimeout='30']
-SELECT u."Id", u."Adress", u."AttechmentId", u."CreatedAt", u."Email", u."Firstname", u."Lastname", u."Password", u."UpdatedAt", u."Username"
-FROM "Users" AS u
-WHERE (u."Username" = @__username_0) AND (u."Password" = @__Encode_1)
-LIMIT 1
-[2022-09-14 15:55:25.862 +05:00  INF]  Executed action UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api) in 372.2563ms
-[2022-09-14 15:55:25.863 +05:00  INF]  Executed endpoint 'UserCabinet.Api.Controllers.AuthController.Login (UserCabinet.Api)'
-[2022-09-14 15:55:26.115 +05:00  INF]  Request finished HTTP/2 POST https://localhost:44354/Auth/Login application/json 57 - 400 - application/json;+charset=utf-8 628.6522ms
+[2022-09-14 16:15:04.491 +05:00  INF]  Request finished HTTP/2 GET https://localhost:44354/User - - - 500 - application/json;+charset=utf-8 5385.3897ms
